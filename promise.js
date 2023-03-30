@@ -8,7 +8,7 @@ function longOperation(WaitMs=2000){
             resolve(100);
         },WaitMs)
     })
-}
+} 
 
 let resultPromise = longOperation()
 console.log(resultPromise);
